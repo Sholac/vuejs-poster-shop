@@ -60,18 +60,23 @@ body {
 }
 
 .main {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
+    display: block;
+    width: 100%;
     padding-bottom: 2rem;
 }
 
 .products {
-    flex: 3;
+    width: 60%;
+    display: inline-block;
 }
 
 .cart {
-    flex: 2;
+    width: 30%;
+    display: inline-block;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
+    vertical-align: top;
 }
 
 /* Header */
